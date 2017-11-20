@@ -9,5 +9,4 @@ public interface RestApi {
 
     @GET("bins/2go22")
     Call<StreamerResponse> getStreamer();
-
 }
